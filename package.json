@@ -1,0 +1,34 @@
+{
+  "name": "hedera-distribution-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "local-node": "npx @hashgraph/hedera-local restart -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.arianelabs.com/ArianeLabs/hedera/nft-marketplace/hedera-distribution-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/hedera-local": "^2.4.5",
+    "@hashgraph/sdk": "2.24.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.3",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.10",
+    "node-fetch": "^3.3.1",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.6"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
